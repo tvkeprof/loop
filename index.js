@@ -82,15 +82,15 @@ console.log("hello");
 // jZvZsZrZpZ OR each letter on a new line
 // HINT: You can use  if((i+1) % 2 == 0) to check for even indexes
 
-// let str1="javascript";
-// let text=''
-// for (let i=0; i<str1.length; i++) 
-// if((i+1) %2===0){
-//     text += "Z"
-// } else{
-//     text += str1[i]
-// }
-// console.log(text);
+let str1="javascript";
+let text=''
+for (let i=0; i<str1.length; i++) 
+if((i+1) %2===0){
+    text += "Z"
+} else{
+    text += str1[i]
+}
+console.log(text);
 
 // Exercise 6
  
@@ -99,6 +99,15 @@ console.log("hello");
 // let str2 = "don’t know why";
 // Example output:
 // “yes”
+
+// let str2 = "don’t know why"
+// let texxt = 'y'
+// if(str2.includes(texxt)){
+//     console.log("yes");
+// } else{
+//     console.log("no");
+// }
+
 
 
 // Exercise 7
@@ -115,4 +124,36 @@ console.log("hello");
 //     sum = sum * i
 // }
 // console.log(sum);
+
+//  Exercise 8
+ 
+// Multiplication Tables
+// Write a for loop that will iterate from 0 to 10. For each iteration of the
+// for loop, it will multiply the number by 9 and log the result
+// (e.g. "2 * 9 = 18").
+// Bonus: Use a nested for loop to show the tables for every multiplier from
+// 1 to 10 (100 results total).
+
+// let number = parseInt(prompt(" oruul; "));
+// let niit = 1
+// for(let i=0; i<=10; i++){
+//   niit= i* number;
+// } console.log(niit);
+
+
+// for(let i=2; i<=9; i++){
+//     row='';
+//     for(let j=2; j<=9; j++){
+//         row += (i*j) + '\t';
+//     }
+//     console.log(row);
+// }
+
+// Exercise 9
+ 
+// The Grade Assigner
+// Check the results of your assignGrade function from the conditionals exercise
+// by logging every value from 60 to 100: your log should show "For 88, you got a
+// B. For 89, you got a B. For 90, you got an A. For 91, you got an A.", etc.,
+// logging each grade point in the range.
 
